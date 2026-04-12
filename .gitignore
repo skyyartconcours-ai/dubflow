@@ -1,0 +1,13 @@
+data/
+downloads/
+dubbed/
+__pycache__/
+*.pyc
+*.pickle
+client_secret.json
+youtube_token.pickle
+.env
+config.env
+*.mp4
+*.mkv
+*.webm
