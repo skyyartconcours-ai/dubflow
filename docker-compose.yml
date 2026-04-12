@@ -1,0 +1,22 @@
+services:
+  dubflow:
+    build: .
+    container_name: dubflow
+    restart: unless-stopped
+    ports:
+      - "80:5000"
+    volumes:
+      - dubflow-data:/app/data
+      - ./client_secret.json:/app/client_secret.json:ro
+    environment:
+      - ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY}
+      - DATA_DIR=/app/data
+      - SECRET_KEY=${SECRET_KEY:-dubflow-prod-key}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  dubflow-data:
