@@ -1,0 +1,47 @@
+# ══════════════════════════════════════════════════════════════════════
+#  nginx-rtmp — Relais multistream
+#  Les __PLACEHOLDER__ sont remplis automatiquement par vps-setup.sh
+# ══════════════════════════════════════════════════════════════════════
+
+worker_processes auto;
+events { worker_connections 1024; }
+
+rtmp {
+    server {
+        listen 1935;
+        chunk_size 4096;
+
+        application live {
+            live on;
+            record off;
+
+            # On n'accepte la publication QUE depuis le serveur lui-même
+            # (le flux arrive via le tunnel SpeedFusion/FusionHub).
+            allow publish 127.0.0.1;
+            allow publish 10.0.0.0/8;       # réseau SpeedFusion
+            deny  publish all;
+            allow play all;
+
+            # ── Fan-out vers les plateformes ──
+            push rtmp://live.twitch.tv/app/__TWITCH_KEY__;
+            push rtmp://a.rtmp.youtube.com/live2/__YOUTUBE_KEY__;
+
+            # Kick passe par stunnel (RTMPS). On pousse en clair vers le
+            # conteneur stunnel qui se charge du chiffrement TLS.
+            push rtmp://kick-tls:1936/__KICK_APP__/__KICK_KEY__;
+        }
+    }
+}
+
+# Page de stats simple : http://VPS_IP:8080/stat
+http {
+    server {
+        listen 80;
+        location /stat {
+            rtmp_stat all;
+            rtmp_stat_stylesheet stat.xsl;
+        }
+        location /stat.xsl { root /usr/local/nginx/html; }
+        location / { return 200 "IRL relay OK\n"; }
+    }
+}
