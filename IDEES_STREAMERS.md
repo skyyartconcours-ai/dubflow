@@ -102,3 +102,85 @@ Un seul stream **rediffusé en simultané** sur toutes les plateformes, avec un
 3. **#7 Auto-clip des temps forts** — moteur de croissance virale.
 4. **#11 Bouclier anti-raid** — protège la chaîne en un instant.
 5. **#15 Multi-stream auto** — démultiplie l'audience sans effort.
+
+---
+---
+
+# 15 idées supplémentaires (lot 2)
+
+> Même logique : **utile en direct, résultat immédiat**. Toutes différentes du lot ci-dessus.
+
+## 🤖 Automatisation pendant le live (le stream « se gère tout seul »)
+
+### 16. Co-host IA / modérateur automatique ⚡📈
+Une IA répond au chat, accueille les nouveaux, rappelle les commandes et **relance la
+conversation** pendant les temps morts. Le stream reste vivant même quand le streamer se concentre.
+
+### 17. Régie automatique (switch de caméras/scènes) ⚡📈
+Change **automatiquement** de scène selon ce qui se passe : passe sur la facecam quand
+le streamer parle, sur le gameplay pendant l'action, sur le chat quand ça spamme.
+
+### 18. Sous-titres live en direct (accessibilité) ⚡📈
+Affiche en temps réel les **sous-titres** de ce que dit le streamer. Capte ceux qui
+regardent sans le son (TikTok, transports) et les malentendants → plus de watch time.
+
+### 19. Highlights de fin de stream automatiques ⚡📈
+À la fin du live, génère **automatiquement** une vidéo récap des meilleurs moments,
+prête à publier en VOD ou en Short. Zéro montage manuel.
+
+### 20. Détection de « moment viral » en temps réel ⚡📈
+Repère le pic de hype (chat qui explose) et **notifie/clippe immédiatement** : « clip ça
+maintenant ! ». Le streamer ne rate jamais le moment à partager.
+
+## 💰 Monétisation & engagement instantanés
+
+### 21. Mini-jeux & sondages déclenchés par le chat ⚡📈
+Le chat lance des **sondages, quiz, paris** en un clic, avec résultats live à l'écran.
+Donne une raison d'interagir → boost l'engagement immédiatement.
+
+### 22. Alertes de dons/follows cinématiques ⚡📈
+Animations **personnalisées et marquantes** à chaque don/follow/sub, avec son et TTS.
+Récompense visible instantanément → incite à donner.
+
+### 23. Objectifs débloquables en direct ⚡📈
+« À 100 followers je fais X ». Barre de progression live ; quand le palier tombe,
+l'action se **déclenche automatiquement** (changement de jeu, gage, giveaway).
+
+### 24. Giveaway automatique anti-triche ⚡📈
+Tire un gagnant au sort dans le chat en **excluant les bots** et faux comptes, avec
+animation de tirage à l'écran. Équitable et instantané.
+
+### 25. Boutique / liens dynamiques à l'écran ⚡📈
+Affiche **automatiquement** le bon lien (sponsor, setup, réseaux) selon le moment du
+stream, avec QR code. Le viewer clique sans chercher.
+
+## 🎛️ Confort & qualité instantanés
+
+### 26. Optimisation auto des réglages OBS ⚡🛡️
+Analyse le PC + la connexion et **règle automatiquement** bitrate, encodeur et résolution
+pour la meilleure qualité sans lag. Plus besoin d'être technicien.
+
+### 27. Égaliseur de voix automatique ⚡🛡️
+Ajuste **en temps réel** le volume de la voix par rapport au jeu/musique pour que le
+streamer reste toujours audible, même dans l'action.
+
+### 28. Cadrage automatique (auto-framing webcam) ⚡📈
+La caméra **suit le streamer** et le garde centré même s'il bouge (idéal IRL / debout).
+Image toujours pro sans caméraman.
+
+### 29. Fond virtuel sans fond vert ⚡📈
+Supprime ou remplace l'arrière-plan **sans green screen**, en direct. Setup propre
+instantané, où qu'on soit.
+
+### 30. Tableau de bord unifié (1 écran de contrôle) ⚡🛡️
+Regroupe chat, alertes, santé du stream et raccourcis sur **un seul panneau** (PC,
+tablette ou téléphone). Tout piloter d'un coup d'œil, même en IRL.
+
+---
+
+### Top priorité du lot 2
+1. **#18 Sous-titres live** — accessibilité + watch time, gros impact.
+2. **#19 Highlights de fin auto** — contenu gratuit pour faire grandir la chaîne.
+3. **#16 Co-host IA** — anime le stream tout seul.
+4. **#28 Auto-framing** — qualité d'image pro instantanée.
+5. **#21 Mini-jeux/sondages** — engagement en un clic.
